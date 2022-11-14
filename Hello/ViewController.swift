@@ -18,9 +18,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func helloButtonPressed(_ sender: UIButton) {
-        let greeting1 = "Hello"
-        let greeting2 = "Hola"
-        let greeting3 = "Ni Hao"
+        let greeting1 = "G'Day"
+        let greeting2 = "Ciao"
+        let greeting3 = "Privyet"
         
         if helloLabel.text == greeting1 {helloLabel.text = greeting2 }
         else if helloLabel.text == greeting2 {helloLabel.text = greeting3 }
